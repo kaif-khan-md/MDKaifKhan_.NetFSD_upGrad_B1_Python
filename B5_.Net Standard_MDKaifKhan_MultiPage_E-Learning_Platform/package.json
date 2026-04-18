@@ -1,0 +1,19 @@
+{
+  "name": "b5_.net-standard_mdkaifkhan_multipage_e-learning_platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "jest": "^30.3.0"
+  }
+}

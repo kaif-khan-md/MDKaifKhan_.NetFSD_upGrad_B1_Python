@@ -1,0 +1,6 @@
+@MultiPageELearningApi_HostAddress = http://localhost:5190
+
+GET {{MultiPageELearningApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

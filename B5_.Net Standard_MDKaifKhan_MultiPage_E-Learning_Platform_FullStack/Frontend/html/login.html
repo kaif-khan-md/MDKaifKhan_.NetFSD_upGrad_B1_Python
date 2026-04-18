@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In — E-Learning</title>
+  <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+
+<div class="card">
+  <div class="brand">
+    <div class="brand-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+           stroke-linecap="round" stroke-linejoin="round">
+        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+      </svg>
+    </div>
+    <h1>E-Learning</h1>
+    <p>Learn · Practice · Track progress</p>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" onclick="showTab('login', this)">Sign in</button>
+    <button class="tab"        onclick="showTab('register', this)">Create account</button>
+  </div>
+
+  <!-- Login -->
+  <div id="loginForm">
+    <div class="field">
+      <label for="email">Email address</label>
+      <input id="email" type="email" placeholder="you@example.com">
+    </div>
+    <div class="field">
+      <label for="password">Password</label>
+      <input id="password" type="password" placeholder="••••••••">
+    </div>
+    <button class="btn-primary" onclick="login()">Sign in</button>
+  </div>
+
+  <!-- Register -->
+  <div id="registerForm" style="display:none;">
+    <div class="field">
+      <label for="name">Full name</label>
+      <input id="name" type="text" placeholder="Jane Smith">
+    </div>
+    <div class="field">
+      <label for="regEmail">Email address</label>
+      <input id="regEmail" type="email" placeholder="you@example.com">
+    </div>
+    <div class="field">
+      <label for="regPassword">Password</label>
+      <input id="regPassword" type="password" placeholder="Min. 8 characters">
+    </div>
+    <button class="btn-primary" onclick="register()">Create account</button>
+  </div>
+
+  <div id="authMsg" class="msg"></div>
+  <p class="footer-note">By continuing, you agree to our Terms of Service</p>
+</div>
+
+<script src="../js/api.js"></script>
+<script src="../js/auth.js"></script>
+<script src="../js/login.js"></script>
+<script>
+  function showTab(tab, btn) {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('loginForm').style.display    = tab === 'login'    ? 'block' : 'none';
+    document.getElementById('registerForm').style.display = tab === 'register' ? 'block' : 'none';
+    var m = document.getElementById('authMsg');
+    m.className = 'msg';
+    m.textContent = '';
+  }
+</script>
+
+</body>
+</html>

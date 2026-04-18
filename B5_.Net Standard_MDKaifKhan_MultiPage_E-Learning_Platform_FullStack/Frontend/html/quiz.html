@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz — E-Learning</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<header class="modern-header d-flex justify-content-between align-items-center px-4 py-3">
+    
+    <div>
+        <h5 id="pageTitle" class="mb-0 fw-semibold">Dashboard</h5>
+        <small id="pageSubtitle" class="text-muted">Welcome back</small>
+    </div>
+
+    <div class="text-muted small">
+        E-Learning Platform
+    </div>
+
+</header>
+
+
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container d-flex justify-content-between align-items-center">
+
+        <!-- LEFT: Brand -->
+        <span class="navbar-brand fw-bold">E-Learning</span>
+
+        <!-- CENTER: Links -->
+        <div class="d-flex gap-3 align-items-center">
+            <a class="nav-link text-white nav-item-link" href="dashboard.html">Dashboard</a>
+            <a class="nav-link text-white nav-item-link" href="courses.html">Courses</a>
+            <a class="nav-link text-white nav-item-link" href="quiz.html">Quiz</a>
+            <a class="nav-link text-white nav-item-link" href="profile.html">Profile</a>
+            <a id="adminLink" class="nav-link text-warning fw-bold nav-item-link" href="admin.html" style="display:none;">
+                Admin
+            </a>
+        </div>
+
+        <!-- RIGHT: Logout -->
+        <div>
+            <button onclick="logout()" class="btn btn-outline-light btn-sm px-3">
+                Logout
+            </button>
+        </div>
+
+    </div>
+</nav>
+
+<div class="container mt-3">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="dashboard.html">Home</a></li>
+            <li class="breadcrumb-item active">Quiz</li>
+        </ol>
+    </nav>
+</div>
+
+<main class="container mt-4">
+    <section class="card shadow p-4">
+
+        <h4 class="mb-3">📋 Quiz</h4>
+
+        <!-- Quiz container (course selector → questions) -->
+        <section id="quizContainer" class="mb-3">
+            <div class="spinner-border text-primary"></div>
+            <p class="mt-2">Loading…</p>
+        </section>
+
+        <!-- Submit (hidden until quiz loaded) -->
+        <div class="text-center" id="submitSection" style="display:none;">
+            <button class="btn btn-success px-4" onclick="submitQuiz()">Submit Quiz</button>
+        </div>
+
+        <!-- Result -->
+        <section id="result" class="mt-4"></section>
+
+    </section>
+</main>
+
+<footer class="bg-dark text-white text-center p-2 mt-4">
+    <p class="mb-0">© 2026 E-learning Platform</p>
+</footer>
+
+<script src="../js/api.js"></script>
+<script src="../js/quiz.js"></script>
+<script src="../js/index.js"></script>
+<script>
+// Show submit button only when questions are loaded
+const _origRender = renderQuiz;
+renderQuiz = function(questions) {
+    _origRender(questions);
+        const role = localStorage.getItem("role");
+        if (role !== "Admin") {
+        document.getElementById("submitSection").style.display = questions.length ? "" : "none";
+    } else {
+        document.getElementById("submitSection").style.display = "none";
+    }
+    };
+</script>
+</body>
+</html>

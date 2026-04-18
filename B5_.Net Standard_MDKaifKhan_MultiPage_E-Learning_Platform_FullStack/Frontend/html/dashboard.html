@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard — E-Learning</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<header class="modern-header d-flex justify-content-between align-items-center px-4 py-3">
+    
+    <div>
+        <h5 id="pageTitle" class="mb-0 fw-semibold">Dashboard</h5>
+        <small id="pageSubtitle" class="text-muted">Welcome back</small>
+    </div>
+
+    <div class="text-muted small">
+        E-Learning Platform
+    </div>
+
+</header>
+
+
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container d-flex justify-content-between align-items-center">
+
+        <!-- LEFT: Brand -->
+        <span class="navbar-brand fw-bold">E-Learning</span>
+
+        <!-- CENTER: Links -->
+        <div class="d-flex gap-3 align-items-center">
+            <a class="nav-link text-white nav-item-link" href="dashboard.html">Dashboard</a>
+            <a class="nav-link text-white nav-item-link" href="courses.html">Courses</a>
+            <a class="nav-link text-white nav-item-link" href="quiz.html">Quiz</a>
+            <a class="nav-link text-white nav-item-link" href="profile.html">Profile</a>
+            <a id="adminLink" class="nav-link text-warning fw-bold nav-item-link" href="admin.html" style="display:none;">
+                Admin
+            </a>
+        </div>
+
+        <!-- RIGHT: Logout -->
+        <div>
+            <button onclick="logout()" class="btn btn-outline-light btn-sm px-3">
+                Logout
+            </button>
+        </div>
+
+    </div>
+</nav>
+<div class="container mt-3">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="dashboard.html">Home</a></li>
+            <li class="breadcrumb-item active">Dashboard</li>
+        </ol>
+    </nav>
+</div>
+
+<main class="container mt-4 dashboard-grid">
+
+    <!-- Courses table -->
+    <section id="userCoursesSection" class="card shadow p-3">
+        <h4 class="mb-3">Courses Overview</h4>
+
+        <table class="table table-hover table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>Course</th>
+                    <th>Lessons</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="courseTable"></tbody>
+        </table>
+    </section>
+
+    <!-- Progress -->
+    <section id="userProgressSection" class="card shadow p-3">
+        <h4 class="mb-3">Learning Progress</h4>
+
+        <div class="modern-progress">
+            <div id="progressBarBootstrap" class="modern-progress-bar">0%</div>
+        </div>
+
+        <p id="progressText" class="mt-2 small text-muted text-center"></p>
+    </section>
+
+    <!-- Analytics -->
+    <!-- <section class="card shadow p-3 mt-3" style="grid-column: 1 / -1;">
+        <h4 class="mb-3">📊 Platform Analytics</h4>
+
+        <div class="row g-3" id="analyticsCards">
+            <div class="col-12 text-center">
+                <div class="spinner-border text-primary"></div>
+                <p class="mt-2">Loading analytics…</p>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="card p-4 mb-4">
+    <h4>📊 Your Analytics</h4>
+    <div id="userAnalytics" class="row"></div>
+
+    <div style="width:260px; height:260px; margin:20px auto;">
+    <canvas id="progressChart"></canvas>
+    </div>
+</section>
+</main>
+
+<!-- Lessons Modal -->
+<div class="modal fade" id="lessonsModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="lessonsModalTitle">Lessons</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" id="lessonsBody"></div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-dark text-white text-center p-2 mt-4">
+    <p class="mb-0">© 2026 E-learning Platform</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/api.js"></script>
+<script src="../js/courses.js"></script>
+<script src="../js/index.js"></script>
+<script src="../js/dashboard.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
