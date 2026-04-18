@@ -1,0 +1,44 @@
+
+# .NET / ASP.NET
+
+**/bin/
+**/obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+
+#VS Code
+.vs/
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+# ENV FILES
+
+.env
+.env.*
+
+
+# FRONTEND
+
+Frontend/node_modules/
+
+
+# DATABASE FILES
+
+*.mdf
+*.ldf
+
+
+# BUILD FILES
+
+dist/
+build/
