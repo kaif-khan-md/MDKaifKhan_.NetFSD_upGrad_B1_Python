@@ -1,0 +1,305 @@
+[2026-04-29 11:49:11] [INFO    ] tickets.json not found. Starting fresh.
+[2026-04-29 11:49:11] [INFO    ] data\problems.json not found. Starting fresh.
+[2026-04-29 11:49:11] [INFO    ] === Smart IT Service Desk Started ===
+[2026-04-29 11:49:47] [INFO    ] Ticket created: TKT-3E798E6F | P1 | Server Down
+[2026-04-29 11:49:47] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 11:49:47] [INFO    ] Ticket created via UI: TKT-3E798E6F
+[2026-04-29 11:50:01] [WARNING ] Search: ticket not found: TKT-3E798E6F
+[2026-04-29 11:55:10] [WARNING ] Search: ticket not found: TKT-3E798E6F
+[2026-04-29 11:59:38] [INFO    ] Backup created: data\backup.csv (1 records)
+[2026-04-29 11:59:38] [INFO    ] === Application exited gracefully ===
+[2026-04-29 11:59:45] [INFO    ] Loaded 1 tickets from data\tickets.json
+[2026-04-29 11:59:45] [INFO    ] data\problems.json not found. Starting fresh.
+[2026-04-29 11:59:45] [INFO    ] === Smart IT Service Desk Started ===
+[2026-04-29 12:00:03] [WARNING ] Search: ticket not found: TKT-3E798E6F
+[2026-04-29 12:06:22] [INFO    ] Backup created: data\backup.csv (1 records)
+[2026-04-29 12:06:22] [INFO    ] === Application exited gracefully ===
+[2026-04-29 12:06:26] [INFO    ] Loaded 1 tickets from data\tickets.json
+[2026-04-29 12:06:26] [INFO    ] data\problems.json not found. Starting fresh.
+[2026-04-29 12:06:26] [INFO    ] === Smart IT Service Desk Started ===
+[2026-04-29 12:06:43] [WARNING ] Search: ticket not found: TKT-3E798E6F
+[2026-04-29 12:07:22] [INFO    ] Backup created: data\backup.csv (1 records)
+[2026-04-29 12:07:22] [INFO    ] === Application exited gracefully ===
+[2026-04-29 12:07:46] [INFO    ] Loaded 1 tickets from data\tickets.json
+[2026-04-29 12:07:46] [INFO    ] data\problems.json not found. Starting fresh.
+[2026-04-29 12:07:46] [INFO    ] === Smart IT Service Desk Started ===
+[2026-04-29 12:07:55] [WARNING ] Search: ticket not found: TKT-3E798E6F
+[2026-04-29 12:12:42] [WARNING ] Search: ticket not found: TKT-3E798E6F
+[2026-04-29 12:13:02] [INFO    ] Backup created: data\backup.csv (1 records)
+[2026-04-29 12:13:02] [INFO    ] === Application exited gracefully ===
+[2026-04-29 12:13:05] [INFO    ] Loaded 1 tickets from data\tickets.json
+[2026-04-29 12:13:05] [INFO    ] data\problems.json not found. Starting fresh.
+[2026-04-29 12:13:05] [INFO    ] === Smart IT Service Desk Started ===
+[2026-04-29 12:13:08] [WARNING ] Search: ticket not found: TKT-3E798E6F
+[2026-04-29 12:18:04] [INFO    ] Backup created: data\backup.csv (1 records)
+[2026-04-29 12:18:04] [INFO    ] === Application exited gracefully ===
+[2026-04-29 12:20:10] [INFO    ] Loaded 1 tickets from data\tickets.json
+[2026-04-29 12:20:10] [INFO    ] data\problems.json not found. Starting fresh.
+[2026-04-29 12:20:10] [INFO    ] === Smart IT Service Desk Started ===
+[2026-04-29 12:20:46] [WARNING ] Search: ticket not found: TKT-3E798E6F
+[2026-04-29 12:24:03] [INFO    ] Backup created: data\backup.csv (1 records)
+[2026-04-29 12:24:03] [INFO    ] === Application exited gracefully ===
+[2026-04-29 12:24:08] [INFO    ] Loaded 1 tickets from data\tickets.json
+[2026-04-29 12:24:08] [INFO    ] data\problems.json not found. Starting fresh.
+[2026-04-29 12:24:08] [INFO    ] === Smart IT Service Desk Started ===
+[2026-04-29 12:35:29] [INFO    ] Backup created: data\backup.csv (1 records)
+[2026-04-29 12:35:29] [INFO    ] === Application exited gracefully ===
+[2026-04-29 12:35:31] [INFO    ] Loaded 1 tickets from data\tickets.json
+[2026-04-29 12:35:31] [INFO    ] data\problems.json not found. Starting fresh.
+[2026-04-29 12:35:31] [INFO    ] === Smart IT Service Desk Started ===
+[2026-04-29 12:37:10] [INFO    ] Backup created: data\backup.csv (1 records)
+[2026-04-29 12:37:10] [INFO    ] === Application exited gracefully ===
+[2026-04-29 12:37:12] [INFO    ] Loaded 1 tickets from data\tickets.json
+[2026-04-29 12:37:12] [INFO    ] data\problems.json not found. Starting fresh.
+[2026-04-29 12:37:12] [INFO    ] === Smart IT Service Desk Started ===
+[2026-04-29 12:37:25] [WARNING ] Search: ticket not found: TKT-3E798E6F
+[2026-04-29 12:41:48] [INFO    ] Loaded 1 tickets from data\tickets.json
+[2026-04-29 12:41:48] [INFO    ] data\problems.json not found. Starting fresh.
+[2026-04-29 12:41:48] [INFO    ] === Smart IT Service Desk Started ===
+[2026-04-29 12:42:20] [INFO    ] Ticket TKT-3E798E6F updated: Open -> Closed
+[2026-04-29 12:42:38] [INFO    ] Ticket TKT-3E798E6F deleted.
+[2026-04-29 12:44:20] [INFO    ] === Application exited gracefully ===
+[2026-04-29 12:44:26] [INFO    ] Loaded 0 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Loaded 0 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-CBFDE705 | P1 | High CPU Usage
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [CRITICAL] Auto-ticket TKT-CBFDE705 for cpu_percent breach (95.0)
+[2026-04-29 12:44:26] [INFO    ] Loaded 1 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Loaded 1 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Loaded 1 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] tickets.json not found. Starting fresh.
+[2026-04-29 12:44:26] [INFO    ] Loaded 1 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-CBAA48CC | P1 | Server Down
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-23E45468 | P4 | Password Reset
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Loaded 3 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-0647D17A | P1 | Server Down
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-15814173 | P4 | Password Reset
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Loaded 5 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-9CA7498B | P1 | Server Down
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-AEE934B3 | P4 | Password Reset
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Loaded 7 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-3C6DA1B2 | P1 | Server Down
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-A4485963 | P4 | Password Reset
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Loaded 9 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-148ECC33 | P1 | Server Down
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-7E0590CA | P4 | Password Reset
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Loaded 11 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-684891DF | P1 | Server Down
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-BC2E8C25 | P4 | Password Reset
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Loaded 13 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-D391488C | P1 | Server Down
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-52147D66 | P4 | Password Reset
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Loaded 15 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-204171F7 | P1 | Server Down
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-57DBD4E3 | P4 | Password Reset
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Loaded 17 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Loaded 17 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Loaded 17 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Loaded 17 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Loaded 17 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Loaded 17 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Loaded 17 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Loaded 17 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Loaded 17 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Loaded 17 tickets from data\tickets.json
+[2026-04-29 12:44:26] [WARNING ] Update failed: ticket TKT-XXXXXXXX not found
+[2026-04-29 12:44:26] [INFO    ] Loaded 17 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-227C4351 | P1 | Server Down
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-11968531 | P4 | Password Reset
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-19DD15E6 | P1 | High CPU Usage
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Loaded 20 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-B1269D24 | P1 | Server Down
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-BE7EB01B | P4 | Password Reset
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-6102BB22 | P1 | High CPU Usage
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Loaded 23 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-70BDE311 | P1 | Server Down
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-1533C18A | P4 | Password Reset
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-63EC37E5 | P1 | High CPU Usage
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Loaded 26 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-4D56BF57 | P1 | Server Down
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-82CABF52 | P4 | Password Reset
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-61D39B67 | P1 | High CPU Usage
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Loaded 29 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-485C68A0 | P1 | Server Down
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-2F9E1677 | P4 | Password Reset
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-9A8A9991 | P1 | High CPU Usage
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Loaded 32 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-B5BD6C35 | P1 | Server Down
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-68B406A1 | P4 | Password Reset
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-3F2644CB | P1 | High CPU Usage
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Loaded 35 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-0DF50DEB | P1 | Server Down
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-1226F78E | P4 | Password Reset
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-A12CC7C2 | P1 | High CPU Usage
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] TEST_UNIQUE_MARKER_XYZ
+[2026-04-29 12:44:26] [INFO    ] Loaded 38 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-1628E443 | P1 | Server Down
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-AD57F4F6 | P4 | Password Reset
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-922711D9 | P1 | High CPU Usage
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Loaded 41 tickets from data\tickets.json
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-9B9AFB05 | P1 | Server Down
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-461EF990 | P4 | Password Reset
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Ticket created: TKT-AF4D9B99 | P1 | High CPU Usage
+[2026-04-29 12:44:26] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:26] [INFO    ] Loaded 44 tickets from data\tickets.json
+[2026-04-29 12:44:27] [INFO    ] Ticket created: TKT-5E5F5727 | P1 | Server Down
+[2026-04-29 12:44:27] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:27] [INFO    ] Ticket created: TKT-80C6BE92 | P4 | Password Reset
+[2026-04-29 12:44:27] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:27] [INFO    ] Ticket created: TKT-6DEC67D6 | P1 | High CPU Usage
+[2026-04-29 12:44:27] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:27] [INFO    ] Daily summary generated for 2026-04-29: 47 tickets
+[2026-04-29 12:44:27] [INFO    ] Loaded 47 tickets from data\tickets.json
+[2026-04-29 12:44:27] [INFO    ] Ticket created: TKT-75F2A7D2 | P1 | Server Down
+[2026-04-29 12:44:27] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:27] [INFO    ] Ticket created: TKT-3CC6CE8E | P4 | Password Reset
+[2026-04-29 12:44:27] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:27] [INFO    ] Ticket created: TKT-4D3F07F8 | P1 | High CPU Usage
+[2026-04-29 12:44:27] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:27] [INFO    ] Loaded 50 tickets from data\tickets.json
+[2026-04-29 12:44:27] [INFO    ] Ticket created: TKT-90A5683F | P1 | Server Down
+[2026-04-29 12:44:27] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:27] [INFO    ] Ticket created: TKT-E1637432 | P4 | Password Reset
+[2026-04-29 12:44:27] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:27] [INFO    ] Ticket created: TKT-F0E6EC0C | P1 | High CPU Usage
+[2026-04-29 12:44:27] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:27] [INFO    ] Loaded 53 tickets from data\tickets.json
+[2026-04-29 12:44:27] [INFO    ] Ticket created: TKT-83CAE481 | P1 | Server Down
+[2026-04-29 12:44:27] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:27] [INFO    ] Ticket created: TKT-1806D6DD | P4 | Password Reset
+[2026-04-29 12:44:27] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:27] [INFO    ] Ticket created: TKT-B0F72669 | P1 | High CPU Usage
+[2026-04-29 12:44:27] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:27] [INFO    ] data\problems.json not found. Starting fresh.
+[2026-04-29 12:44:27] [INFO    ] Loaded 56 tickets from data\tickets.json
+[2026-04-29 12:44:27] [INFO    ] Change Request created: CHG-B83B499E | Normal | Other
+[2026-04-29 12:44:27] [INFO    ] Loaded 1 ITIL records from data\problems.json
+[2026-04-29 12:44:27] [INFO    ] Loaded 56 tickets from data\tickets.json
+[2026-04-29 12:44:27] [INFO    ] Incident created: INC-1C493DFF | P1 | Server Down
+[2026-04-29 12:44:27] [INFO    ] Loaded 2 ITIL records from data\problems.json
+[2026-04-29 12:44:27] [INFO    ] Loaded 56 tickets from data\tickets.json
+[2026-04-29 12:44:27] [INFO    ] Service Request created: SRQ-F4DB853F | Password Reset
+[2026-04-29 12:44:27] [INFO    ] Loaded 3 ITIL records from data\problems.json
+[2026-04-29 12:44:27] [INFO    ] Loaded 56 tickets from data\tickets.json
+[2026-04-29 12:44:27] [INFO    ] Incident created: INC-47CF7CF9 | P3 | Laptop Slow
+[2026-04-29 12:44:27] [INFO    ] Loaded 4 ITIL records from data\problems.json
+[2026-04-29 12:44:27] [INFO    ] Loaded 56 tickets from data\tickets.json
+[2026-04-29 12:44:27] [INFO    ] Incident created: INC-C38C3EC0 | P1 | Server Down
+[2026-04-29 12:44:27] [INFO    ] Loaded 5 ITIL records from data\problems.json
+[2026-04-29 12:44:27] [INFO    ] Loaded 56 tickets from data\tickets.json
+[2026-04-29 12:44:27] [INFO    ] Ticket created: TKT-D8D0FCB5 | P3 | Printer Issue
+[2026-04-29 12:44:27] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:27] [INFO    ] Ticket created: TKT-8691A329 | P3 | Printer Issue
+[2026-04-29 12:44:27] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:27] [INFO    ] Ticket created: TKT-330C7E03 | P3 | Printer Issue
+[2026-04-29 12:44:27] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:27] [INFO    ] Ticket created: TKT-47DE27F7 | P3 | Printer Issue
+[2026-04-29 12:44:27] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:27] [INFO    ] Ticket created: TKT-FB27F9AC | P3 | Printer Issue
+[2026-04-29 12:44:27] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:44:27] [WARNING ] Problem Record created: PRB-BA0A8AC8 | High CPU Usage | 14x
+[2026-04-29 12:44:27] [WARNING ] Problem Record created: PRB-D872791A | Server Down | 21x
+[2026-04-29 12:44:27] [WARNING ] Problem Record created: PRB-5844BB0A | Password Reset | 21x
+[2026-04-29 12:44:27] [WARNING ] Problem Record created: PRB-2DC9C52F | Printer Issue | 5x
+[2026-04-29 12:44:27] [INFO    ] Loaded 9 ITIL records from data\problems.json
+[2026-04-29 12:44:27] [INFO    ] Loaded 61 tickets from data\tickets.json
+[2026-04-29 12:44:27] [INFO    ] Loaded 9 ITIL records from data\problems.json
+[2026-04-29 12:44:27] [INFO    ] Loaded 61 tickets from data\tickets.json
+[2026-04-29 12:44:27] [INFO    ] Loaded 9 ITIL records from data\problems.json
+[2026-04-29 12:44:27] [INFO    ] Loaded 61 tickets from data\tickets.json
+[2026-04-29 12:44:36] [INFO    ] Loaded 61 tickets from data\tickets.json
+[2026-04-29 12:44:36] [INFO    ] Loaded 9 ITIL records from data\problems.json
+[2026-04-29 12:44:36] [INFO    ] === Smart IT Service Desk Started ===
+[2026-04-29 12:44:50] [WARNING ] Search: ticket not found: TKT-3E798E6F
+[2026-04-29 12:45:24] [INFO    ] Ticket created: TKT-DA17327C | P1 | High CPU Usage
+[2026-04-29 12:45:24] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:45:24] [WARNING ] Problem Record auto-created: High CPU Usage (14 occurrences)
+[2026-04-29 12:45:24] [INFO    ] Ticket created: TKT-9A3317A4 | P1 | Server Down
+[2026-04-29 12:45:24] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:45:24] [WARNING ] Problem Record auto-created: Server Down (21 occurrences)
+[2026-04-29 12:45:24] [INFO    ] Ticket created: TKT-0DAB6F8E | P4 | Password Reset
+[2026-04-29 12:45:24] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:45:24] [WARNING ] Problem Record auto-created: Password Reset (21 occurrences)
+[2026-04-29 12:45:24] [INFO    ] Ticket created: TKT-55CE1B08 | P3 | Printer Issue
+[2026-04-29 12:45:24] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:45:24] [WARNING ] Problem Record auto-created: Printer Issue (5 occurrences)
+[2026-04-29 12:45:42] [INFO    ] Backup created: data\backup.csv (65 records)
+[2026-04-29 12:45:42] [INFO    ] === Application exited gracefully ===
+[2026-04-29 12:50:28] [INFO    ] Loaded 65 tickets from data\tickets.json
+[2026-04-29 12:50:28] [INFO    ] Loaded 9 ITIL records from data\problems.json
+[2026-04-29 12:50:28] [INFO    ] === Smart IT Service Desk Started ===
+[2026-04-29 12:50:34] [INFO    ] Backup created: data\backup.csv (65 records)
+[2026-04-29 12:50:34] [INFO    ] === Application exited gracefully ===
+[2026-04-29 12:50:42] [INFO    ] Loaded 65 tickets from data\tickets.json
+[2026-04-29 12:50:42] [INFO    ] Loaded 9 ITIL records from data\problems.json
+[2026-04-29 12:50:42] [INFO    ] === Smart IT Service Desk Started ===
+[2026-04-29 12:52:07] [INFO    ] Backup created: data\backup.csv (65 records)
+[2026-04-29 12:52:07] [INFO    ] === Application exited gracefully ===
+[2026-04-29 12:52:59] [INFO    ] Loaded 10 tickets from data\tickets.json
+[2026-04-29 12:52:59] [ERROR   ] JSON decode error in data\problems.json: Expecting value: line 1 column 1 (char 0)
+[2026-04-29 12:52:59] [INFO    ] === Smart IT Service Desk Started ===
+[2026-04-29 12:53:11] [INFO    ] Ticket created: TKT-AAB331B6 | P1 | Server Down
+[2026-04-29 12:53:11] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:53:11] [WARNING ] Problem Record auto-created: Server Down (5 occurrences)
+[2026-04-29 12:53:27] [WARNING ] Problem Record created: PRB-CAA081E7 | Server Down | 5x
+[2026-04-29 12:53:35] [INFO    ] Backup created: data\backup.csv (11 records)
+[2026-04-29 12:53:35] [INFO    ] === Application exited gracefully ===
+[2026-04-29 12:53:51] [INFO    ] Loaded 11 tickets from data\tickets.json
+[2026-04-29 12:53:51] [INFO    ] Loaded 1 ITIL records from data\problems.json
+[2026-04-29 12:53:51] [INFO    ] === Smart IT Service Desk Started ===
+[2026-04-29 12:55:27] [INFO    ] Ticket created: TKT-9DAED439 | P4 | Software Install
+[2026-04-29 12:55:27] [INFO    ] TICKET CREATED: create_ticket() executed
+[2026-04-29 12:55:27] [INFO    ] Ticket created via UI: TKT-9DAED439
+[2026-04-29 12:57:58] [INFO    ] Ticket TKT-23E45468 updated: Open -> Closed
+[2026-04-29 12:58:39] [INFO    ] Ticket TKT-23E45468 deleted.
+[2026-04-29 12:59:11] [INFO    ] Ticket TKT-9DAED439 updated: Open -> Closed
+[2026-04-29 12:59:11] [INFO    ] Ticket TKT-9DAED439 closed.
+[2026-04-29 12:59:11] [INFO    ] TICKET CLOSED: close_ticket() executed
+[2026-04-29 13:00:36] [INFO    ] Daily summary generated for 2026-04-29: 11 tickets
+[2026-04-29 13:00:58] [INFO    ] Monthly trend report generated for 2026-04
+[2026-04-29 13:01:52] [INFO    ] Backup created: data\backup.csv (11 records)
+[2026-04-29 13:02:50] [INFO    ] Daily summary generated for 2026-04-29: 11 tickets
+[2026-04-29 13:03:07] [INFO    ] Backup created: data\backup.csv (11 records)
+[2026-04-29 13:03:07] [INFO    ] === Application exited gracefully ===

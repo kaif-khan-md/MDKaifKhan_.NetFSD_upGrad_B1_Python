@@ -1,0 +1,12 @@
+ticket_id,employee_name,department,issue_description,category,priority,status,ticket_type,created_at,updated_at,closed_at,sla_breached
+TKT-CBFDE705,System Monitor (Auto),IT,CPU critically high at 95.0%,High CPU Usage,P1,Open,Incident,2026-04-29T12:44:26.390664,2026-04-29T12:44:26.390664,,False
+TKT-CBAA48CC,Alice,IT,Server crash,Server Down,P1,Open,Incident,2026-04-29T12:44:26.509560,2026-04-29T12:44:26.509560,,False
+TKT-0647D17A,Alice,IT,Server crash,Server Down,P1,Open,Incident,2026-04-29T12:44:26.527627,2026-04-29T12:44:26.527627,,False
+TKT-15814173,Bob,HR,Password reset,Password Reset,P4,Open,ServiceRequest,2026-04-29T12:44:26.529089,2026-04-29T12:44:26.529089,,False
+TKT-9CA7498B,Alice,IT,Server crash,Server Down,P1,Open,Incident,2026-04-29T12:44:26.548472,2026-04-29T12:44:26.548472,,False
+TKT-AEE934B3,Bob,HR,Password reset,Password Reset,P4,Open,ServiceRequest,2026-04-29T12:44:26.550474,2026-04-29T12:44:26.550474,,False
+TKT-3C6DA1B2,Alice,IT,Server crash,Server Down,P1,Open,Incident,2026-04-29T12:44:26.573156,2026-04-29T12:44:26.573156,,False
+TKT-A4485963,Bob,HR,Password reset,Password Reset,P4,Open,ServiceRequest,2026-04-29T12:44:26.575180,2026-04-29T12:44:26.575180,,False
+TKT-148ECC33,Alice,IT,Server crash,Server Down,P1,Open,Incident,2026-04-29T12:44:26.594290,2026-04-29T12:44:26.594290,,False
+TKT-AAB331B6,System (Auto),IT,Recurring issue detected: Server Down,Server Down,P1,Open,ProblemRecord,2026-04-29T12:53:11.331252,2026-04-29T12:53:11.331252,,False
+TKT-9DAED439,MD Kaif Khan,IT,Need to install ubuntu,Software Install,P4,Closed,ServiceRequest,2026-04-29T12:55:27.130983,2026-04-29T12:59:11.092318,2026-04-29T12:59:11.092333,False

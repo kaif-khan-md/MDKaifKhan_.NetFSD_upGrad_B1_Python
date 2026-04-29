@@ -1,0 +1,19 @@
+[
+  {
+    "record_id": "PRB-CAA081E7",
+    "title": "Recurring Issue: Server Down",
+    "category": "Server Down",
+    "description": "Same issue 'Server Down' has occurred 5 times.",
+    "priority": "P1",
+    "status": "Open",
+    "created_by": "System (Auto)",
+    "created_at": "2026-04-29T12:53:27.600446",
+    "updated_at": "2026-04-29T12:53:27.600446",
+    "notes": [],
+    "type": "ProblemRecord",
+    "recurrence_count": 5,
+    "root_cause": "Under investigation",
+    "workaround": null,
+    "known_error": false
+  }
+]
